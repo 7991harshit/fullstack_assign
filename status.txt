@@ -1,0 +1,7 @@
+java assingments:
+assing1----->completed         (online examination)
+assing2----->completed         (displaying details of employees without oops)
+assing3----->completed         (displaying details of employees using oops)
+assing4----->completed         (displaying employees details using all concepts of oop)
+assing5----->completed         (displaying student details using array object)
+assing6----->pending
