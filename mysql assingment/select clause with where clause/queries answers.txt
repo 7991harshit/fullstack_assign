@@ -1,0 +1,10 @@
+Answers:
+1. select * from jobs where min_salary > 10000;
+2. select first_name,hire_date from employees where year(hire_date) between 2000 and 2005;
+3. select first_name,hire_date from employees where job_id in('IT_PROG','SA_MAN');
+4. select first_name,salary,commision_pct,hire_date from employees where salary < 10000;
+5. select job_title,max_salary-min_salary difference from jobs where max_salary between 10000 and 20000;
+6. select * from employees where first_name like 's%' or last_name like 's%';
+7. select * from jobs order by job_title desc;
+8. select * from employees where month(hire_date)=05;
+9. select * from employees where commission_pct is null and salary between 5000 and 10000 and department_id=30;
