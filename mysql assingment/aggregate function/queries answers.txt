@@ -1,0 +1,4 @@
+Answers:
+1. select employee_id,max(end_date) from job_history group by employee_id;
+2. select count(*) from employees where day(hire_date) > 15;
+(or)  select count(*) from employees where extract(day from hire_date) > 15;
