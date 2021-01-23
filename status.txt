@@ -1,3 +1,7 @@
+sql assingment:
+status-------->completed
+
+
 java assingments:
 assing1----->completed         (online examination)
 assing2----->completed         (displaying details of employees without oops)
