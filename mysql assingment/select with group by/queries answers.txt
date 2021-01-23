@@ -1,0 +1,10 @@
+Answers:
+3. select country_id,count(*) from locations group by country_id;
+4. select department_id,avg(salary) from employees where commission_pct is not null group by department_id;
+5. select job_id,count(*),sum(salary),max(salary)-min(salary) salary from employees group by job_id;
+6. select job_id,avg(salary) from employees group by job_id having avg(salary) > 10000;
+7. select extract(year from hire_date) year,count(*) noofemployeesjoined from employees group by extract(year from hire_date) having count(employee_id) > 10;
+(or) select year(hire_date) year,count(*) noofemployeesjoined from employees group by year(hire_date) having count(employee_id) > 10;
+8. select department_id,count(*) count from employees where commission_pct is not null group by department_id having count(commission_pct) > 5;
+9. select department_name,count(*) noofemployees from employees natural join departments group by department_name;
+10. select employee_id from job_history group by employee_id having count(*) > 1;
