@@ -1,0 +1,6 @@
+Answers:
+1. update employees set salary=8000 where employee_id=115 and salary < 6000;
+2. insert into employees values(208,'Harshit','Jain','HARSHITJ','6232074010',sysdate(),'IT_PROG',1200,null,102,80);
+4. update employees set job_id='IT_PROG' where employee_id=110 and department_id=10 and not job_id like 'IT%';
+5. insert into departments values(121,'sports',null,1200);
+6. select employee_id,job_title,end_date-start_date days from job_history natural join jobs where department_id=30;

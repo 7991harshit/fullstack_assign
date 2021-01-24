@@ -1,0 +1,7 @@
+Answers:
+2. select first_name,salary,round(salary,-3) rounded from employees;
+4. select first_name,hire_date,floor(datediff(sysdate(),hire_date)/365) from employees;
+5. select first_name,last_name,length(first_name) from employees where instr(last_name,'b') > 3;
+6. select upper(first_name),lower(email) from employees where upper(first_name)=upper(email);
+7. select * from employees where year(hire_date)=year(sysdate());
+9. select month(hire_date),count(*) from employees where year(hire_date)=year(sysdate()) group by month(hire_date);
