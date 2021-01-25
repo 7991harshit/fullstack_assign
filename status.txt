@@ -10,3 +10,5 @@ assing4----->completed         (displaying employees details using all concepts 
 assing5----->completed         (displaying student details using array object)
 assing6----->completed         (mini banking project without exception handling)
 assing6(with update)       ----->completed          (mini banking project with exception handling)
+assing7----->completed         (sorting strings with ascending or descending order)
+assign8----->completed         (sorting using comparator)
