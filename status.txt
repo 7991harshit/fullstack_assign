@@ -21,3 +21,6 @@ mini project 2(sprint1)------>completed
 ui assingments:
 
 assing 2----------->completed        (addition and substraction using pop up javascript)
+
+
+orm assingment-------->completed     (JpaOperation on item table)
